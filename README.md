@@ -1,162 +1,133 @@
 # 📈 BizLens AI
 
-<div align="center">
-
-### AI-Powered Business Feasibility & Location Intelligence for Dubai
-
-**Machine Learning • Large Language Models • Business Analytics • Streamlit**
-
-</div>
+<p align="center">
+  <b>An AI-Powered Business Feasibility & Location Intelligence Platform for Dubai</b>
+  <br><br>
+  Analyze business ideas, predict success probabilities, and receive intelligent investment recommendations using Machine Learning and Large Language Models.
+</p>
 
 ---
 
-## 📖 Overview
+## 🚀 Overview
 
-BizLens AI is an intelligent business feasibility platform that helps entrepreneurs and investors evaluate whether a business idea is likely to succeed in a specific Dubai community.
+BizLens AI is an intelligent business decision support system designed to help entrepreneurs, investors, and startups evaluate the feasibility of opening a business in different communities across Dubai.
 
-The system combines **Machine Learning** and **Large Language Models (LLMs)** to understand natural language business ideas, analyze community characteristics, estimate competition, and generate professional investment recommendations.
+The platform combines **Machine Learning**, **Natural Language Processing**, and **Conversational AI** to transform a simple business idea into a detailed feasibility analysis.
 
-Unlike traditional rule-based systems, BizLens AI leverages predictive analytics alongside conversational AI to provide explainable, data-driven business insights.
+Users simply describe their idea in plain English, and BizLens AI performs:
 
----
-
-## ✨ Key Features
-
-- 🤖 Natural Language Business Idea Analysis
-- 🧠 Machine Learning Feasibility Prediction
-- 📍 Dubai Community Intelligence
-- 💬 AI Business Consultant powered by Ollama (Llama 3)
-- 📊 Interactive Streamlit Dashboard
-- 📈 Success Probability Prediction
-- 🏢 Competitor Analysis
-- 🚇 Infrastructure & Accessibility Evaluation
-- 💰 Budget Extraction from User Input
-- 📄 Executive Business Recommendations
-- 💬 Context-Aware Follow-up Conversations
+- Business Idea Understanding
+- Community Detection
+- Budget Extraction
+- Competitor Analysis
+- Success Probability Prediction
+- AI-generated Business Consultation
 
 ---
 
-## 🎯 Problem Statement
+## ✨ Features
 
-Starting a business requires answering several critical questions:
+### 🤖 AI Business Assistant
 
-- Is this location suitable?
-- Is the competition too high?
-- Is my budget sufficient?
-- What are the risks?
-- Is there enough customer demand?
-
-Traditional feasibility studies are expensive and time-consuming.
-
-BizLens AI provides entrepreneurs with an intelligent assistant capable of answering these questions within seconds using AI and Machine Learning.
+- Understands natural language
+- Extracts business information automatically
+- Detects Dubai communities
+- Extracts investment budget
+- Understands user intent
+- Supports follow-up conversations
 
 ---
 
-# 🏗 System Architecture
+### 📊 Machine Learning Prediction
+
+Predicts the probability of business success using engineered commercial features.
+
+Outputs include:
+
+- Success Probability
+- Competition Level
+- Infrastructure Analysis
+- Business Suitability
+
+---
+
+### 📍 Dubai Community Intelligence
+
+BizLens analyzes each Dubai community using multiple commercial indicators including:
+
+- Restaurants
+- Cafes
+- Hotels
+- Clinics
+- Gyms
+- Supermarkets
+- Metro Stations
+- Bus Stops
+- Parking
+- Walkability
+- Office Presence
+- Tourist Presence
+
+---
+
+### 💬 AI Business Consultant
+
+After the ML prediction, the AI consultant generates:
+
+- Executive Summary
+- Business Opportunity
+- Investment Advice
+- Risk Analysis
+- Practical Recommendations
+
+---
+
+## 🧠 System Workflow
 
 ```text
-                User Input
-                     │
-                     ▼
-        Natural Language Processing
-            (Llama 3 via Ollama)
-                     │
-                     ▼
-        Business Information Extraction
-                     │
-                     ▼
-        Dubai Community Dataset Lookup
-                     │
-                     ▼
-           Feature Engineering
-                     │
-                     ▼
-      Random Forest Classification
-                     │
-                     ▼
-       Business Success Probability
-                     │
-                     ▼
-     AI Business Advisor (LLM Response)
-                     │
-                     ▼
-        Interactive Streamlit Dashboard
+             User Input
+                  │
+                  ▼
+       Large Language Model
+        (Llama 3 + Ollama)
+                  │
+                  ▼
+     Business Information Extraction
+                  │
+                  ▼
+      Dubai Community Data Lookup
+                  │
+                  ▼
+        Feature Engineering
+                  │
+                  ▼
+     Random Forest ML Prediction
+                  │
+                  ▼
+     Success Probability Score
+                  │
+                  ▼
+      AI Business Recommendation
+                  │
+                  ▼
+      Interactive Streamlit Dashboard
 ```
 
 ---
 
-# 🧠 AI Pipeline
+# 📊 Machine Learning
 
-### Step 1 — User Input
-
-Example:
-
-```text
-I have AED 300,000 and want to open a specialty coffee shop in Dubai Marina.
-```
-
----
-
-### Step 2 — LLM Parser
-
-The LLM extracts:
-
-- Business Type
-- Dubai Community
-- Budget
-- Risk Appetite
-- Target Demographic
-- User Intent
-
----
-
-### Step 3 — Community Lookup
-
-The extracted location is matched with the verified Dubai community dataset containing infrastructure and business statistics.
-
----
-
-### Step 4 — Feature Engineering
-
-Additional features are generated including:
-
-- Competition Intensity
-- Infrastructure Score
-- Nearby Competitor Density
-
----
-
-### Step 5 — Machine Learning
-
-A Random Forest classifier predicts the probability of business success using engineered features.
-
----
-
-### Step 6 — AI Advisor
-
-The prediction is passed back to the LLM which generates a professional business recommendation based on:
-
-- ML Prediction
-- Business Type
-- Budget
-- Competition
-- Community Characteristics
-
----
-
-## 🧠 Machine Learning
-
-### Algorithm
+### Model
 
 - Random Forest Classifier
 
 ### Feature Engineering
 
-The model uses features such as:
+The prediction model considers factors such as:
 
 - Business Type
 - Commercial Rent Tier
-- Commercial Unit Size
+- Unit Size
 - Nearby Competitors
 - Complementary Businesses
 - Office Presence
@@ -166,96 +137,92 @@ The model uses features such as:
 - Walkability
 - Public Transport Access
 - Development Maturity
-- Infrastructure Score
 - Competition Intensity
+- Infrastructure Score
 
 ---
 
-## 🤖 Large Language Model
+# 🤖 AI Components
 
-BizLens AI uses **Llama 3** running locally through **Ollama**.
+BizLens uses **Llama 3** running locally through **Ollama**.
 
-The LLM performs:
+The language model is responsible for:
 
-- Business Idea Parsing
-- Location Detection
+- Business Type Detection
+- Community Detection
 - Budget Extraction
-- Intent Recognition
-- Business Recommendation Generation
-- Context-Aware Follow-up Conversations
-
----
-
-# 📊 Datasets
-
-## 1. Dubai Community Dataset
-
-Contains verified information including:
-
-- Communities
-- Restaurants
-- Cafes
-- Hotels
-- Gyms
-- Clinics
-- Pharmacies
-- Schools
-- Parks
-- Bus Stops
-- Metro Stations
-- Commercial Rent Information
-- Infrastructure Indicators
-
----
-
-## 2. Business Training Dataset
-
-Synthetic dataset containing:
-
-- Business Type
-- Community
-- Rent Tier
-- Unit Size
-- Nearby Competitors
-- Complementary Businesses
-- Office Presence
-- Residential Presence
-- Tourist Presence
-- Parking
-- Walkability
-- Development Maturity
-- Recommendation Labels
+- User Intent Classification
+- Business Advice Generation
+- Context-Aware Conversations
 
 ---
 
 # 📂 Project Structure
 
 ```text
-BizLens-AI/
+BizLens-AI
 │
 ├── app.py
 ├── streamlit_app.py
 ├── config.py
 │
-├── core/
+├── core
 │   ├── ml.py
-│   ├── llm.py
+│   └── llm.py
 │
-├── data/
-│   ├── final_verified_dubai_communities_cleaned.csv
-│   └── bizlens_dataset2_cleaned.csv
+├── data
+│   ├── historical_commercial_data.csv
+│   └── dubai_community_metrics.csv
 │
-├── models/
+├── models
 │   ├── bizlens_classifier.pkl
 │   └── pipeline.pkl
 │
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-# 🚀 Installation
+# 📊 Datasets
+
+### Dubai Community Dataset
+
+Contains verified commercial information for Dubai communities, including:
+
+- Commercial Rent
+- Restaurants
+- Cafes
+- Hotels
+- Gyms
+- Pharmacies
+- Clinics
+- Bus Stops
+- Metro Stations
+- Tourist Presence
+- Office Presence
+- Walkability
+- Parking
+- Development Maturity
+
+---
+
+### Historical Commercial Dataset
+
+Training dataset used for the machine learning model containing:
+
+- Business Type
+- Community
+- Commercial Rent Tier
+- Unit Size
+- Nearby Competitors
+- Complementary Businesses
+- Infrastructure Indicators
+- Recommendation Labels
+
+---
+
+# ⚙ Installation
 
 Clone the repository
 
@@ -274,11 +241,11 @@ pip install -r requirements.txt
 
 # 🦙 Install Ollama
 
-Download Ollama:
+Download Ollama
 
 https://ollama.com/download
 
-Pull Llama 3
+Pull the Llama 3 model
 
 ```bash
 ollama pull llama3
@@ -292,13 +259,13 @@ ollama serve
 
 ---
 
-# 🏋️ Train the Machine Learning Model
+# 🏋 Train the Machine Learning Model
 
 ```bash
 python core/ml.py
 ```
 
-Generated artifacts:
+This generates:
 
 ```text
 models/
@@ -308,7 +275,7 @@ models/
 
 ---
 
-# ▶️ Run the Application
+# ▶ Run BizLens AI
 
 ```bash
 streamlit run streamlit_app.py
@@ -316,67 +283,102 @@ streamlit run streamlit_app.py
 
 ---
 
-# 💬 Example Query
+# 💬 Example
+
+### User Input
 
 ```text
-I have AED 500,000 and want to open a specialty coffee shop in Dubai Marina.
+I have AED 450,000 and want to open a specialty coffee shop in Dubai Marina.
+```
+
+### BizLens AI Automatically
+
+- Detects Coffee Shop
+- Detects Dubai Marina
+- Extracts Budget
+- Calculates Nearby Competition
+- Computes Infrastructure Score
+- Predicts Business Success Probability
+- Generates Executive Business Advice
+
+---
+
+# 📈 Sample Output(On Streamlit)
+
+```
+Business Type
+Coffee Shop
+
+Location
+Dubai Marina
+
+Budget
+AED 450,000
+
+Nearby Competitors
+12
+
+Success Probability
+82.4%
+
+Recommendation
+Ollama generated Summary
 ```
 
 ---
 
-# 📈 Example Output
+# 🧪 Example Test Queries
 
-- ✅ Business Type Detection
-- ✅ Budget Extraction
-- ✅ Dubai Community Detection
-- ✅ Competitor Analysis
-- ✅ Success Probability Prediction
-- ✅ Interactive Gauge Visualization
-- ✅ AI Investment Recommendation
-- ✅ Context-Aware Follow-up Chat
+```text
+I want to open a gym in Business Bay.
+```
 
----
+```text
+I have AED 800,000 and want to start a pharmacy in JVC.
+```
 
-# 🧪 Sample Test Cases
+```text
+Would Downtown Dubai be suitable for a luxury restaurant?
+```
 
-| User Input | Expected Output |
-|------------|-----------------|
-| Open a cafe in Dubai Marina | Feasibility prediction with AI recommendation |
-| Open a pharmacy in JVC | Community analysis and success probability |
-| Open a gym in Business Bay | Competitor analysis and prediction |
-| I have AED 300,000 to invest | Budget extraction and personalized recommendation |
-| Suggest a better location | Alternative Dubai community recommendation |
-| Is this area too competitive? | Context-aware follow-up response |
+```text
+Suggest a better location for a bakery.
+```
+
+```text
+Is the competition too high in Dubai Marina?
+```
 
 ---
 
-# 📊 Tech Stack
+# 🛠 Technologies Used
 
 | Category | Technology |
 |-----------|------------|
 | Programming Language | Python |
 | Machine Learning | Scikit-learn |
-| Data Processing | Pandas, NumPy |
-| UI | Streamlit |
+| Data Processing | Pandas |
+| Numerical Computing | NumPy |
 | Visualization | Plotly |
+| Frontend | Streamlit |
 | Model Serialization | Joblib |
 | LLM Runtime | Ollama |
 | Language Model | Llama 3 |
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Future Enhancements
 
 - Interactive Dubai Map
-- Rental Price Prediction
-- ROI Forecasting
+- Rental Price Forecasting
+- ROI Prediction
 - Population Density Analysis
-- Live Market Data Integration
+- Live Commercial Property Data
+- Market Trend Analysis
 - Business Ranking Engine
 - Multi-City Support
+- REST API
 - Cloud Deployment
-- Multiple LLM Support
-- REST API Integration
 
 ---
 
@@ -386,8 +388,10 @@ I have AED 500,000 and want to open a specialty coffee shop in Dubai Marina.
 
 Computer Science Engineering Student
 
-Aspiring Data Scientist • Machine Learning Engineer • AI Enthusiast
+Machine Learning • Artificial Intelligence • Data Science
 
 ---
 
-## ⭐ If you found this project interesting, consider giving it a star!
+<p align="center">
+Built with ❤️ using Python, Scikit-learn, Streamlit, and Llama 3.
+</p>
